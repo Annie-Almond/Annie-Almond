@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...  Online DE&I in the Workplace - Online - University of South Florida
+- 🔭 I’m currently working on ...  Online DE&I in the Workplace - University of South Florida
 - 🌱 I’m currently learning ... HTML & CSS Codecademy Bootcamp
 - 👯 I’m looking to collaborate on ...  Web Development
 - 🤔 I’m looking for help with ...  Good Coding Techniqes
