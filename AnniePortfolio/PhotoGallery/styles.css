@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+
+  border-bottom: 6px rgba(92, 89, 89, 0.3);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-color: rgba(218, 165, 32, 0.5);
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+.text-box {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Additional styles for centering the text box vertically */
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.footer {
+  background-color: rgba(218, 165, 32, 0.5);
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
