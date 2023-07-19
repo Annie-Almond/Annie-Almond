@@ -1,0 +1,292 @@
+@media (max-width: 768px) {
+  #welcome-section h1 {
+    font-size: 22px;
+  }
+}
+.box {
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1;);
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #888;
+  color: #57a8a8;
+  text-align: center;
+  padding: 10px;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(87, 168, 168, 0.5);
+}
+.navbar ul {
+  display: flex; /* Display the menu items in a row */
+  justify-content: center; /* Center the menu items horizontally */
+  align-items: center; /* Center the menu items vertically */
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: var(--main-gray);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.top-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  padding: 0px;
+
+}
+
+.top-menu ul {
+  list-style-type: right;
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu li {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.top-menu a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.top-menu a:hover {
+  background-color: #ccc;
+}
+
+.header-banner {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px #444;
+}
+@media (max-width: 768px) {
+  #welcome-section h1 {
+    font-size: 22px;
+  }
+}
+.welcome-section {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #57a8a8;
+  color: #fff;
+  flex-grow: inherit;
+  z-index: 1;
+  background: linear-gradient(135deg, #57a8a8, #336677);
+  transition: background-color 0.5s ease;
+}
+
+.welcome-section:hover {
+  background-color: #336677;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  border-width: 1px 1px 2px 2px;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+
+  .text-box {
+    width: 90%;
+    height: 100% /* Adjust the width to your preference */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust the shadow properties as needed */
+  }
+}
+/* Set the width of each project tile */
+.project-tile {
+  width: 300px;
+}
+
+/* Adjust the size of the project image */
+.project-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Center the project title */
+.project-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Add a background color and padding to the projects section */
+.projects-section {
+  background-color: rgba(87, 168, 168, 0.5);
+  padding: 30px;
+}
+
+/* Style the projects section header */
+.projects-section-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+
+.project:hover {
+  color: #ff7f50;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Style the projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project {
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+
+/* Style the "Show all" button */
+.btn-show-all {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-show-all:hover {
+  background-color: #0056b3;
+}
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+footer {
+  background-color: rgba(87, 168, 168, 0.5);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer > ul > li {
+  padding: 20 20px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.9em;
+  color: #444;
+}
