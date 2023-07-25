@@ -2,6 +2,7 @@
 Title: 
 Welcome to Annie Almond's - Web Projects - 2023 Full Stack Bootcamp
 This project highlights the first part of my web programming training using HTML & CSS to express myself through a short profile.
+![23VergeBootcamp](https://github.com/Annie-Almond/Annie-Almond/assets/122937060/c095b49a-fc2a-49b5-b70a-a4fc0db466ed)
 
 Description:  
 I have highlighted my Beekeeping hobby as the topic for a few of my projects.  I currently have 4 Bee-Hives in my backyard and prefer to use my own photography to tell a story about living with Bees. To prepare the portfolio wireframe I sketched out on paper the connections I wanted to include.  My portfolio highlights my experience with Techlahoma training.  We meet at the Verge each Saturday for live classes where we can all work together and finish a project together.  I chose to focus on HTML & CSS specifically as we are still learning in the JavaScript sections of our course-work and I wanted to put a portfolio into action should anyone with an Internship take a look they could get an introduction to my style.  I look forward to creating my React js portfolio and will keep this portfolio as a separate project.
