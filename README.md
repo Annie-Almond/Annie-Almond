@@ -19,7 +19,8 @@ Table of Contents:
 All projects were supported and made possible by my attendance with the 2023 Full Stack Web Development Bootcamp.
 
 You can view my published profile page at the following link:
-GitHub Profile:  https://annie-almond.github.io/Annie-Almond/23aaProfile/index.html 
+GitHub Profile:  
+https://annie-almond.github.io/Annie-Almond/23aaProfile/index.html 
 
 
 
